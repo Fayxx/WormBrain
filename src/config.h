@@ -14,8 +14,8 @@ constexpr int WINDOW_HEIGHT = 600;
 constexpr const char* WINDOW_TITLE = "Wormmmm";
 
 // Worm
-constexpr int nWORM_SEGMENTS = 1000;
-constexpr int WORM_SEGMENT_RADIUS = 1;
+constexpr int nWORM_SEGMENTS = 10;
+constexpr int WORM_SEGMENT_RADIUS = 20;
 constexpr int WORM_SEGMENT_OFFSET = 1.5*WORM_SEGMENT_RADIUS;
 //const int WORM_SEGMENT_OFFSET = 10;
 

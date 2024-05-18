@@ -32,12 +32,19 @@ Vector2 Worm::extendAndRotate(const Vector2& prev, float angle) {
     Vector2 rotatedVector = rotateAroundPoint(prev, extendedVector, angle);
     return rotatedVector;
 }
-
+Vector2 Worm::normaliseVector(const Vector2 &vec) {
+    Vector2 ret = vec;
+    if(vec.x > WINDOW_WIDTH) ret.x = 0;
+    if(vec.x < 0) ret.x = WINDOW_WIDTH;
+    if(vec.y > WINDOW_HEIGHT) ret.y = 0;
+    if(vec.y < 0) ret.y = WINDOW_HEIGHT;
+    return ret;
+}
 void Worm::next(){
     direction = get_float(360);
     if(segments.size()==nWORM_SEGMENTS)
         segments.erase(segments.begin(), segments.begin()+1);
-    segments.push_back({extendAndRotate(segments.back(), direction)});
+    segments.push_back(normaliseVector({extendAndRotate(segments.back(), direction)}));
 }
 
 void Worm::render() {

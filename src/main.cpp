@@ -3,6 +3,7 @@
 
 int main() {
     InitWindow(WINDOW_WIDTH, WINDOW_HEIGHT, WINDOW_TITLE);
+    SetTargetFPS(10);
     int curr_key_pressed;
     Worm W = Worm();
     while(!WindowShouldClose()){

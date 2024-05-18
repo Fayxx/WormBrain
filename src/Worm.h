@@ -11,6 +11,7 @@ private:
     static float get_float(float max_val);
     static Vector2 rotateAroundPoint(const Vector2 &point, const Vector2 &vector, float angle);
     static Vector2 extendAndRotate(const Vector2 &prev, float angle);
+    static Vector2 normaliseVector(const Vector2 &vec);
 public:
     Worm();
     ~Worm();
