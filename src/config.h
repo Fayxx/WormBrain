@@ -4,18 +4,19 @@
 #include <iostream>
 #include <random>
 #include <vector>
+#include <string>
 #include "raylib.h"
 
 
 // Window
-const int WINDOW_WIDTH = 800;
-const int WINDOW_HEIGHT = 600;
-const char* WINDOW_TITLE = "Wormmmm";
+constexpr int WINDOW_WIDTH = 800;
+constexpr int WINDOW_HEIGHT = 600;
+constexpr char* WINDOW_TITLE = "Wormmmm";
 
 // Worm
-const int nWORM_SEGMENTS = 1000;
-const int WORM_SEGMENT_RADIUS = 1;
-const int WORM_SEGMENT_OFFSET = 1.5*WORM_SEGMENT_RADIUS;
+constexpr int nWORM_SEGMENTS = 1000;
+constexpr int WORM_SEGMENT_RADIUS = 1;
+constexpr int WORM_SEGMENT_OFFSET = 1.5*WORM_SEGMENT_RADIUS;
 //const int WORM_SEGMENT_OFFSET = 10;
 
 #endif //WORMBRAIN_CONFIG_H
