@@ -1,11 +1,11 @@
-// Includes
-#include <iostream>
-#include <random>
-
-#include "raylib.h"
-
 #ifndef WORMBRAIN_CONFIG_H
 #define WORMBRAIN_CONFIG_H
+
+#include <iostream>
+#include <random>
+#include <vector>
+#include "raylib.h"
+
 
 // Window
 const int WINDOW_WIDTH = 800;

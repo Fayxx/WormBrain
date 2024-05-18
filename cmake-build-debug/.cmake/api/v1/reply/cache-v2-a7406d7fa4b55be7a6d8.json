@@ -1719,7 +1719,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo"
+			"value" : " -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo"
 		},
 		{
 			"name" : "GLFW_SOURCE_DIR",
