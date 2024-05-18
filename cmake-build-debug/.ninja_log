@@ -1,0 +1,27 @@
+# ninja log v5
+2	285	1715985308441735096	libs/raylib/src/CMakeFiles/raylib_static.dir/shapes.c.o	470710db2c3a287b
+672	896	1715985309054781035	libs/raylib/src/external/glfw/src/CMakeFiles/glfw_objlib.dir/osmesa_context.c.o	6927af0843f9c1be
+257	558	1715985308714904793	libs/raylib/src/external/glfw/src/CMakeFiles/glfw_objlib.dir/input.c.o	3d139ac1005324f
+2	333	1715985308488419420	libs/raylib/src/CMakeFiles/raylib_static.dir/text.c.o	6983a0adfffaa055
+13	392	1715989570561976716	CMakeFiles/WormBrain.dir/src/main.cpp.o	c20ae09022a69361
+3	512	1715985308663056365	libs/raylib/src/external/glfw/src/CMakeFiles/glfw_objlib.dir/init.c.o	ccf92ed643dfce77
+440	951	1715985309106732684	libs/raylib/src/external/glfw/src/CMakeFiles/glfw_objlib.dir/cocoa_init.m.o	7c0fa1e6f8bd46e9
+2	439	1715985308595310215	libs/raylib/src/CMakeFiles/raylib_static.dir/textures.c.o	86b0168e120ca55e
+333	574	1715985308731063683	libs/raylib/src/external/glfw/src/CMakeFiles/glfw_objlib.dir/vulkan.c.o	3860d7d1518751f0
+3	257	1715985308414757364	libs/raylib/src/CMakeFiles/raylib_static.dir/utils.c.o	8b9f1d6a2e5bcaf4
+556	792	1715985308948498155	libs/raylib/src/external/glfw/src/CMakeFiles/glfw_objlib.dir/cocoa_time.c.o	192be6b9ffca4a1
+624	867	1715985309025887956	libs/raylib/src/external/glfw/src/CMakeFiles/glfw_objlib.dir/egl_context.c.o	ad9d4258c9c89802
+405	672	1715985308828151893	libs/raylib/src/external/glfw/src/CMakeFiles/glfw_objlib.dir/window.c.o	6d30e1bab9158aa4
+574	977	1715985309135141282	libs/raylib/src/external/glfw/src/CMakeFiles/glfw_objlib.dir/nsgl_context.m.o	95381777bfb660
+392	486	1715989570657135492	WormBrain	b2aebb9452acf097
+511	950	1715985309106056719	libs/raylib/src/external/glfw/src/CMakeFiles/glfw_objlib.dir/cocoa_monitor.m.o	5a42a17a910b3f
+558	805	1715985308962117171	libs/raylib/src/external/glfw/src/CMakeFiles/glfw_objlib.dir/posix_thread.c.o	b5c69d18c26a0e1c
+1	475	1715985308628061856	libs/raylib/src/CMakeFiles/raylib_static.dir/models.c.o	468365f5e8158526
+285	556	1715985308713712090	libs/raylib/src/external/glfw/src/CMakeFiles/glfw_objlib.dir/monitor.c.o	a8ab616e91db99b1
+3	510	1715985308665595514	libs/raylib/src/external/glfw/src/CMakeFiles/glfw_objlib.dir/context.c.o	a65f2ff2df5c9952
+1	405	1715985308562551951	libs/raylib/src/CMakeFiles/raylib_static.dir/core.c.o	99c24664506e291c
+977	1054	1715985309215935000	libs/raylib/src/external/glfw/src/libglfw3.a	c83fb1526f42c1f0
+475	945	1715985309101595885	libs/raylib/src/external/glfw/src/CMakeFiles/glfw_objlib.dir/cocoa_joystick.m.o	ae3544b23aee25df
+512	969	1715985309126684641	libs/raylib/src/external/glfw/src/CMakeFiles/glfw_objlib.dir/cocoa_window.m.o	84dd236bb11502a0
+2	854	1715985309010624724	libs/raylib/src/CMakeFiles/raylib_static.dir/raudio.c.o	4fb76ad325281f0a
+1054	1085	1715985309247589000	libs/raylib/src/libraylib.a	d68d076e0c6c9af4
