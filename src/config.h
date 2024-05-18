@@ -11,7 +11,7 @@
 // Window
 constexpr int WINDOW_WIDTH = 800;
 constexpr int WINDOW_HEIGHT = 600;
-constexpr char* WINDOW_TITLE = "Wormmmm";
+constexpr const char* WINDOW_TITLE = "Wormmmm";
 
 // Worm
 constexpr int nWORM_SEGMENTS = 1000;

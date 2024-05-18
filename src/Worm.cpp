@@ -4,7 +4,9 @@
 
 #include "Worm.h"
 
-Worm::Worm() = default;
+Worm::Worm(){
+    segments.push_back({WINDOW_WIDTH/2, WINDOW_HEIGHT/2});
+}
 Worm::~Worm() = default;
 
 float Worm::get_float(float max_val){
@@ -26,10 +28,8 @@ Vector2 Worm::rotateAroundPoint(const Vector2& point, const Vector2& vector, flo
 Vector2 Worm::extendAndRotate(const Vector2& prev, float angle) {
     // Extend the vector by WORM_SEGMENT_OFFSET
     Vector2 extendedVector = {prev.x + WORM_SEGMENT_OFFSET, prev.y};
-
     // Rotate the extended vector around the original vector (prev)
     Vector2 rotatedVector = rotateAroundPoint(prev, extendedVector, angle);
-
     return rotatedVector;
 }
 

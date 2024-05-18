@@ -3,9 +3,8 @@ project(WormBrain)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_subdirectory(libs/raylib)
+add_subdirectory(raylib)
 add_executable(WormBrain src/main.cpp
-        src/config.h
         src/Worm.cpp
 )
 target_link_libraries(${PROJECT_NAME} PRIVATE raylib)
